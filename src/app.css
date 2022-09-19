@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+*:not(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+}
+
+code {
+  padding: 0.05rem 0.25rem;
+}
+
+code.code-block {
+  padding: 0.5rem;
+}
+
+#sidebar {
+  width: 18.75rem;
+}
+
+/* @media screen and (max-width: 640px) {
+  #sidebar {
+    --translate-x: -18.75rem;
+    transform: translateX(var(--translate-x));
+  }
+} */
